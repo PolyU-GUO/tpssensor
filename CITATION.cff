@@ -1,0 +1,84 @@
+cff-version: 1.2.0
+title: Raw calibration data of single-point-type tactile pressure sensors (TPS)
+message: If you use this data, please cite both the dataset and the article below.
+type: dataset
+authors:
+  - given-names: Chang
+    family-names: Guo
+    affiliation: The Hong Kong Polytechnic University
+  - given-names: Chao
+    family-names: Zhou
+    affiliation: The Hong Kong Polytechnic University
+repository-code: https://github.com/PolyU-GUO/tpssensor
+url: https://github.com/PolyU-GUO/tpssensor
+abstract: >-
+  Raw post-installation calibration records of 18 single-point-type tactile pressure sensors
+  (15 TPS-ICPT and 3 TPS-EPC, labelled 101-118). Calibration was performed in a sealed pressure
+  tank with pressures raised stepwise to 60, 100 or 200 kPa and released back to 0 kPa at 4 kPa/min.
+  Each record gives the applied pressure (kPa) and the electrical resistance (Ohm) of every sensor,
+  together with the non-linearity error of each sensor for the loading, unloading and loop paths.
+keywords:
+  - tactile pressure sensor
+  - earth pressure cell
+  - soil-structure interface
+  - contact pressure
+  - sensor calibration
+  - piezoresistive sensor
+license: CC-BY-4.0
+references:
+  - type: article
+    authors:
+      - given-names: Chang
+        family-names: Guo
+      - given-names: Chao
+        family-names: Zhou
+    title: 'Axial Behaviour of Steel Pipelines Buried in Sand: Effects of Surface Roughness and Hardness'
+    journal: Geotechnique
+    volume: 75
+    issue: 6
+    start: 800
+    end: 813
+    year: 2025
+    doi: 10.1680/jgeot.24.00001
+  - type: article
+    authors:
+      - given-names: Chang
+        family-names: Guo
+      - given-names: Chao
+        family-names: Zhou
+      - given-names: M. A.
+        family-names: Meguid
+    title: Cyclic and Post-cyclic Axial Behaviors of Steel Pipelines Buried in Dense Sand
+    journal: Acta Geotechnica
+    volume: 21
+    start: 823
+    end: 842
+    year: 2026
+    doi: 10.1007/s11440-025-02790-w
+  - type: article
+    authors:
+      - given-names: Chang
+        family-names: Guo
+      - given-names: Chao
+        family-names: Zhou
+    title: Axial Behaviour of Underground Steel Pipeline Buried in Unsaturated Soils
+    journal: Tunnelling and Underground Space Technology
+    volume: 164
+    start: 106831
+    year: 2025
+    doi: 10.1016/j.tust.2025.106831
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Chang
+      family-names: Guo
+    - given-names: Chao
+      family-names: Zhou
+  title: Novel Single-Point-Type Tactile Pressure Sensors for Earth and Soil-Structure Interface Contact Pressures Measurement
+  journal: Geotechnical Testing Journal
+  volume: 48
+  issue: 5
+  start: 728
+  end: 746
+  year: 2025
+  doi: 10.1520/GTJ20240066
